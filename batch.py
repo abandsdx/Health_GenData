@@ -10,3 +10,4 @@ for i in range(0,int(Number_of_people)):
     os.makedirs(Location + '\\' + name,exist_ok = True)
     copy('C://Users//Huang//Documents//health_data//1.png',Location + '\\' + name)
     
+    
