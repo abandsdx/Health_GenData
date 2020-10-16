@@ -1,4 +1,4 @@
-import os,random,os.path
+import os,random
 from shutil import copyfile,copy,copy2
 from pathlib import Path
 Number_of_people = input("How many numbes of people you want to create?")
