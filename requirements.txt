@@ -1,0 +1,21 @@
+# 健康資料生成器相依套件
+# Health Data Generator Dependencies
+
+# 核心相依套件
+# Core dependencies (Python 標準庫，無需額外安裝)
+
+# 開發和測試相依套件
+# Development and testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
+
+# 可選增強功能
+# Optional enhancements
+pandas>=1.5.0          # 用於資料分析和處理
+matplotlib>=3.6.0      # 用於資料視覺化
+seaborn>=0.12.0        # 用於統計圖表
+faker>=18.0.0          # 用於生成更真實的假資料
+openpyxl>=3.0.0        # 用於Excel檔案支援

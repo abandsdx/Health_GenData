@@ -1,0 +1,23 @@
+{
+  "output_directory": "./generated_health_data",
+  "template_image": "1.png",
+  "generate_csv": true,
+  "generate_json": true,
+  "create_folders": true,
+  "copy_template": true,
+  "data_settings": {
+    "age_range": [18, 80],
+    "male_height_range": [160, 185],
+    "male_weight_range": [55, 90],
+    "female_height_range": [150, 175],
+    "female_weight_range": [45, 75]
+  },
+  "health_ranges": {
+    "blood_pressure_systolic": [110, 140],
+    "blood_pressure_diastolic": [70, 90],
+    "heart_rate": [60, 100],
+    "body_temperature": [36.0, 37.5],
+    "blood_sugar_base": [80, 120],
+    "cholesterol_base": [150, 250]
+  }
+}
